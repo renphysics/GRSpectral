@@ -2,4 +2,4 @@
 
 `PDW-geometry.nb` is 
 
-The equations of motion is calculated with Matthew Headrick's `diffgeo.m` (http://people.brandeis.edu/~headrick/Mathematica/). 
+The equations of motion are calculated with Matthew Headrick's `diffgeo.m` (https://sites.google.com/view/matthew-headrick/mathematica). 
