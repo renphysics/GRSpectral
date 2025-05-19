@@ -3,7 +3,7 @@ A Mathematica package for solving PDEs by the pseudospectral method (v0.2, Jie R
 
 Philosophy of the design: Leave complexity to ourselves, and give simplicity to users.
 
-To be updated. (2025/05/19: Package name changed from `spNDSolve` to `GRSpectral`. v0.3 to be released.)
+To be updated. (2025/05/19: Package name changed from "spNDSolve" to "GRSpectral". v0.3 to be released.)
 
 Put the `GRSpectral.m` in the directory
 
@@ -26,7 +26,7 @@ The folder PDW contains a nontrivial example as the background solution in 1612.
 
 
 
-# Functionalities of `GRSpectral`
+# Functionalities of GRSpectral
 ## 1. Natural input of equations and boundary conditions
 ```mathematica
 flist = {psi[z], phi[z]};
