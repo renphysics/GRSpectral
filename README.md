@@ -1,11 +1,11 @@
-# spNDSolve (Spectral NDSolve)
+# GRSpectral
 A Mathematica package for solving PDEs by the pseudospectral method (v0.2, Jie Ren)
 
 Philosophy of the design: Leave complexity to ourselves, and give simplicity to users.
 
-To be updated.
+To be updated. (2025/05/19: Package name changed from `spNDSolve` to `GRSpectral`. v0.3 to be released.)
 
-Put the `spNDSolve.m` in the directory
+Put the `GRSpectral.m` in the directory
 
 ```
 SystemOpen@FileNameJoin[{$UserBaseDirectory, "Applications"}]
@@ -14,10 +14,10 @@ SystemOpen@FileNameJoin[{$UserBaseDirectory, "Applications"}]
 Load the package by
 
 ```
-<< spNDSolve.m
+<< GRSpectral.m
 ```
 
-The documentation is in the notebook `spNDSolve Manual.nb` (to be completed).
+The documentation is in the notebook `GRSpectral Manual.nb` (to be completed).
 
 1. At the first (symbolic) stage, specify equations and boundary conditions by `eqProcess`. 
 2. At the second (numerical) stage, solve the system numerically by `spNDSolve`.
