@@ -972,6 +972,10 @@ rhs\[Diamond]s[[1]]\[DotEqual]0;
 LinearSolve[lhs\[Vee]s,rhs\[Vee]s]);
 
 
+SetAttributes[table,HoldAll];
+table[expr__]:=(ParallelEvaluate[<<GRSpectral.m];ParallelTable[expr]);
+
+
 take[list_,n_]:=If[(Length[list]>=n)===True,Take[list,n],list];
 
 
